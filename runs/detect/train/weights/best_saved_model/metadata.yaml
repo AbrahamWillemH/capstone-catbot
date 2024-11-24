@@ -1,0 +1,19 @@
+description: Ultralytics YOLO11n model trained on /content/CatBot--7/data.yaml
+author: Ultralytics
+date: '2024-11-24T20:59:07.808696'
+version: 8.3.36
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: cat-dermatitis
+  1: cat-eye
+  2: cat-eye-normal
+  3: cat-hairloss
+  4: cat-lump-and-bump
+  5: cat-scabies

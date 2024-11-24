@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['cat-dermatitis', 'cat-eye', 'cat-eye-normal', 'cat-hairloss', 'cat-lump-and-bump', 'cat-scabies']
+
+roboflow:
+  workspace: catbot-capstone
+  project: catbot
+  version: 7
+  license: Private
+  url: https://universe.roboflow.com/catbot-capstone/catbot/dataset/7
